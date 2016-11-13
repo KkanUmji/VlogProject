@@ -1,0 +1,113 @@
+header {
+  padding-top: 50px;
+}
+nav ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  margin: 0 0 0 0 ;
+  padding: 0 0 0 0;
+  border : 0;
+  float: left;
+}
+
+article {
+
+  text-align: center;
+  width: 1200px;
+  border: 5px double black;
+  margin: auto;
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
+#mainarticle{
+  width: 1110px;
+  margin: auto;
+  margin-top:60px;
+
+}
+
+#layer_fixed
+{
+    height:50px;
+    width:100%;
+    color: #555;
+    font-size:20px;
+    position:fixed;
+    z-index:999;
+    top:0px;
+    left:0px;
+    -webkit-box-shadow: 0 1px 2px 0 #777;
+    box-shadow: 0 1px 2px 0 #777;
+    background-color: black;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: pink;
+}
+nav ol ul{
+  display: none;
+  position: absolute;
+  background-color:black;
+  padding-bottom: 20px;
+  padding-right:20px;
+  padding-top: 10px;
+  margin-left: -20px;
+  list-style: none;
+}
+nav ol li:hover ul{
+  display:block;
+}
+
+nav ol ul li{
+  float:none;
+}
+
+.li{
+  margin-left: -20px;
+  font-size:15px;
+  padding: 3px;
+}
+
+#photozone{
+  margin-left: -8px;
+  margin-right: -8px;
+  background-image: url(OASIS2.jpg);
+  height: 500px;
+}
+#line{
+  margin-left: -10px;
+  background-color: black;
+  height: px;
+  width: 1351px;
+  padding-top: 10px;
+}
+#title{
+  margin: auto;
+ font-size: 20px;
+ color: white;
+ text-align: center;
+ background-color: black;
+}
+
+p{
+  letter-spacing: 1.15px;
+  line-height: 25px;
+}
+
+#mainarticle h1{
+  font-size: 30px;
+}
+#mainarticle h3{
+  margin-top: 70px;
+  margin-bottom: 3px;
+}
+#mainarticle h4{
+  margin:13px;
+}
